@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project addresses the **P-Median Facility Location Problem**. Given `n` demand locations(50 in this problem ), the objective is to determine the optimal placement of `m` facilities (3 in this solution) such that the total distance between demand points and facilities is minimized.
+This project addresses the **P-Median Facility Location Problem**. Given `n` demand locations, the objective is to determine the optimal placement of `m` facilities such that the total distance between demand points and facilities is minimized.
 
 ## Project Structure
 
@@ -50,11 +50,7 @@ Given `n = 50` demand locations, determine the optimal placement of `m = 3` faci
     ```sh
     python location_coordinates.py
     ```
-3. Generate the distance matrix:
-    ```sh
-    python generate_distance_matrix.py
-    ```
-4. Solve the P-Median Facility Location Problem:
+3. Solve the P-Median Facility Location Problem:
     ```sh
     python p_median_facility_location_problem.py
     ```
@@ -73,11 +69,6 @@ Given `n = 50` demand locations, determine the optimal placement of `m = 3` faci
 2. **Convert to CSV:**
     ```sh
     python location_coordinates.py
-    ```
-
-3. **Generate Distance Matrix:**
-    ```sh
-    python generate_distance_matrix.py
     ```
 
 4. **Solve the P-Median Problem:**
